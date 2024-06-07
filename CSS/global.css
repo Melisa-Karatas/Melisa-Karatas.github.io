@@ -1,0 +1,47 @@
+.bg-dark{
+    background-color: #3E405B;
+}
+.bg-light{
+    background-color: #A2A4BD;
+}
+.bg-white{
+    background-color: #cbc7f3;
+}
+/* Text CSS */
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+.text-title{
+    font-family:"Caesar Dressing", sans-serif;
+}
+.img-fluid{
+    max-width: 300px;
+    height: auto;
+    border-radius: 300px;
+    border: 3px solid #3E405B;
+}
+.img-fluid-item{
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+.btn{
+    margin-top: 1.25rem;
+    padding: 1rem 4rem;
+    border-radius: 0.75rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #3E405B;
+    transition: all 0.4s;
+    color: #A2A4BD;
+}
+.btn-primary:hover{
+    background-color: #A2A4BD;
+    color: #3E405B;
+    border: 1px solid #3E405B;
+}
